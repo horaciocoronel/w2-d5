@@ -10,26 +10,6 @@ venues = [
 
 wheelchair_accessible_array = []
 
-# def wheelchair_accessible(venues)
-#   puts "Venues wheelchair accessible:"
-#   venues.each do | x |
-#     if x[:wheelchair_accessible] == true
-#       x[:address]
-#     else
-#     end
-#   end
-# end
-
-# def fit_150(venues)
-#   puts "Venues that can fit 150 people:"
-#   venues.each do |x|
-#     if x[:capacity] >= 150
-#       puts x[:address]
-#     else
-#     end
-#   end
-# end
-
 def wheelchair_accessible_to(venues, array)
   puts "Venues wheelchair accessible in Toronto:"
   venues.each do | x |
@@ -43,6 +23,6 @@ end
 
 wheelchair_accessible_to(venues, wheelchair_accessible_array)
 
-puts "----PRINT ARRAY----"
+puts "----PRINTS ARRAY----"
 
 puts wheelchair_accessible_array
