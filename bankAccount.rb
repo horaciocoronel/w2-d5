@@ -15,4 +15,9 @@ class BankAccount
     @interest_rate
   end
 
+  # Writer (Setter)
+  def deposit(amount)
+    @balance += amount
+  end
+
 end
